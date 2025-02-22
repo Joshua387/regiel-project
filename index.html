@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- External styling -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awsome icons  -->
+    <script
+      src="https://kit.fontawesome.com/bf313c055e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header content  -->
+    <header>
+      <nav id="header">
+        <div class="logo">
+          <img src="./images/RC_LOGO__sphral.png" alt="logo" />
+        </div>
+
+        <ul id="sidemenu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">Who we are</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+
+        
+          <i class="fa-solid fa-x" id="closemenu"></i>
+          <a href="" class="out">Get in touch</a>
+        </ul>
+
+        <a href="" class="btn">Get in touch</a>
+
+        <i class="fa-solid fa-bars" id="openmenu"></i>
+      </nav>
+    </header>
+    <main>
+      <!-- main conents -->
+      <section id="home">
+        <!-- <div class="home-image">
+            <img src="./images/image_1.jpg" alt="" />
+          </div> -->
+        <div class="home-container">
+          <div class="home-row-1">
+            <h1>
+              We Offer The Best
+              <span class="buss"
+                >Business <img src="./images/Vector.png" alt="" />
+              </span>
+              And Financial Consulting Services
+            </h1>
+            <p>(Business Clinic Next Door)</p>
+          </div>
+
+          <!-- Slideshow container -->
+          <div class="fade-slider-container">
+            <h2>Service <span>Industries</span></h2>
+
+            <p>Be assured of our services</p>
+            <div class="fade-slider">
+              <div class="fade-slide fade-active">
+                <img src="./images/image_3.jpg" alt="Image 1" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_4.jpg" alt="Image 2" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_5.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_6.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/hotel-img.webp" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_7.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_8.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_9.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_10.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_11.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_12.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_13.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_14.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_15.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_16.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_17.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_18.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_19.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_20.jpg" alt="Image 3" />
+              </div>
+
+              <div class="fade-slide">
+                <img src="./images/image_21.jpg" alt="Image 3" />
+              </div>
+            </div>
+
+            <button class="fade-prev" onclick="moveFadeSlide(-1)">
+              &#10094;
+            </button>
+            <button class="fade-next" onclick="moveFadeSlide(1)">
+              &#10095;
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!---------- About container ---- -->
+      <section id="about">
+        <h2>About</h2>
+
+        <div class="about-container">
+          <div class="team_img">
+            <img src="./images/about_img.jfif" alt="" />
+          </div>
+
+          <div class="about-row">
+            <h3>WHO <span>WE ARE </span></h3>
+            <div class="empty"></div>
+            <p>
+              Reginel Consulting Firm is a leading financial consulting and
+              business rebranding firm. We specialize in providing innovative
+              and sustainable solutions to both existing businesses and
+              start-ups. Our goal is to act as a lifeline for businesses,
+              offering them strategic support and expert advice that lead to
+              long-term success. Known as "Your Business Clinic," we are
+              dedicated to diagnosing and solving business challenges
+              efficiently.
+            </p>
+
+            <h3>OUR <span>FOCUS AREAS </span></h3>
+            <div class="empty"></div>
+            <p>
+              Increasing profitability and market share. Establishing strong,
+              sustainable financial systems. Diagnosing organizational problems
+              and providing long-lasting solutions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services container  -->
+      <section id="services">
+        <h2>Our Services</h2>
+
+        <div class="services-container">
+          <p class="discription">
+            At Reginel Consulting Firm, we provide a wide range of comprehensive
+            financial consulting and business development services tailored to
+            the unique needs of businesses across multiple industries. Our deep
+            expertise and licensed operations ensure company benefits from
+            top-notch advisory, innovative strategies, and operational
+            excellence that guarantee growth, efficiency, and long-term
+            sustainability.
+          </p>
+
+          <div class="services-list">
+            <div class="services list-1">
+              <img src="./images/consultant-img.jpg" />
+              <h2 class="remove">
+                FINANCIAL
+                <span> CONSULTING SERVICES </span>
+              </h2>
+              <div class="layer">
+                <h2>
+                  FINANCIAL
+                  <span> CONSULTING SERVICES </span>
+                </h2>
+                <p class="layer-info-1">
+                  Our financial consulting solutions are designed to help
+                  businesses establish solid financial systems, maximize
+                  profitability, and make informed decisions.
+                </p>
+                <h4>Our services include:</h4>
+                <div class="layer-info-2">
+                  <ul>
+                    <li>- Investment Advisory</li>
+                    <li>- Financial System Development</li>
+                    <li>- Tax Management & Advisory</li>
+                    <li>
+                      - Internal Control & Audits Managerial & Financial Audits
+                    </li>
+                    <li>- Success Record</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services list-1">
+              <img src="./images/interview.jpg" />
+              <h2 class="remove">
+                RECRUITMENTAND STAFF
+                <span> SECONDING SERVICES</span>
+              </h2>
+              <div class="layer">
+                <h2>RECRUITMENTAND STAFF <span>SECONDING SERVICES </span></h2>
+                <p class="layer-info-1">
+                  We provide recruitment services and staff seconding to help
+                  businesses build teams that drive performance. Whether you
+                  need managerial or operational staff, we handle the
+                  recruitment, onboarding, and development processes to ensure
+                  that you have the right talent for your business needs.
+                </p>
+                <h4>Success Record:</h4>
+                <div class="layer-info-2">
+                  <ul>
+                    <li>
+                      - We have provided job opportunities to over 2,000
+                      individuals worldwide, helping businesses and
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services list-1">
+              <img src="./images/buss-find.webp" />
+              <h2 class="remove">
+                BUSINESS
+                <span> FUNDING ACCESS </span>
+              </h2>
+              <div class="layer">
+                <h2>
+                  BUSINESS
+                  <span>FUNDING ACCESS </span>
+                </h2>
+                <p class="layer-info-1">
+                  We are experts in providing access to a wide range of business
+                  funding opportunities, helping businesses secure the capital
+                  they need to grow:
+                </p>
+                <h4>Our services include:</h4>
+                <div class="layer-info-2">
+                  <ul>
+                    <li>- Grant & Loan Application Support</li>
+                    <li>-Business Mergers & Partnerships</li>
+                    <li>- Venture Capital & Private Equity Consulting</li>
+                    <li>- Success Record</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services list-1">
+              <img src="./images/buss-dev.jpg" />
+              <h2 class="remove">
+                BUSINESS DEVELOPMENT
+                <span>SERVICES</span>
+              </h2>
+              <div class="layer">
+                <h2>
+                  BUSINESS DEVELOPMENT
+                  <span>SERVICES </span>
+                </h2>
+                <p class="layer-info-1">
+                  As a full-fledged business development firm, we work with
+                  companies from ideation to execution. Whether you're launching
+                  a new venture or rebranding an existing one,
+                </p>
+                <h4>Our services cover:</h4>
+                <div class="layer-info-2">
+                  <ul>
+                    <li>- Business Plan Development</li>
+                    <li>- Expansion & Profitability Strategies</li>
+                    <li>- Business Diagnostics</li>
+                    <li>- Branding & Imaging</li>
+                    <li>- Social Media Management</li>
+                    <li>- Success Record</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services list-1">
+              <img src="./images/train-img.jpg" />
+              <h2 class="remove">
+                TRAINING AND CAPACITY
+                <span> BUILDING</span>
+              </h2>
+              <div class="layer">
+                <h2>
+                  TRAINING AND CAPACITY
+                  <span> BUILDING </span>
+                </h2>
+                <p class="layer-info-1">
+                  To ensure that your team is equipped with the knowledge and
+                  skills they need, we offer targeted training programs in the
+                  following areas:
+                </p>
+                <h4>Our services include:</h4>
+                <div class="layer-info-2">
+                  <ul>
+                    <li>- Financial Management And Multiplication</li>
+                    <li>- Financial System Development</li>
+                    <li>- Tax Management & Advisory</li>
+                    <li>
+                      - Internal Control & Audits Managerial & Financial Audits
+                    </li>
+                    <li>- Success Record</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="services list-1">
+              <img src="./images/consultant-img.jpg" />
+              <h2 class="remove">
+                SERVICE FACILITYDEVELOPMENT
+                <span> AND MANAGEMENT</span>
+              </h2>
+              <div class="layer">
+                <h2>
+                  SERVICE FACILITYDEVELOPMENT
+                  <span> AND MANAGEMENT</span>
+                </h2>
+                <p class="layer-info-1">
+                  We provide comprehensive Service Facility Development and
+                  Management solutions. From conceptualizing state-of-the-art
+                  facilities to ensuring their efficient operation, we provide
+                  businesses with a full suite of services to support their
+                  infrastructure needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-us">
+        <div class="why-us-col-1">
+          <h2>
+            WHY <br />
+            <span>REGINEL </span> <br />
+            CONSULTING?
+          </h2>
+        </div>
+
+        <div class="why-us-col-2">
+          <p>
+            <span class="sub-header">Proven Success :</span> We have been in
+            operation for over a decade, we have supported the establishment of
+            over 1000 businesses and secured funding for over 800 companies.
+          </p>
+          <p>
+            <span class="sub-header">Comprehensive Solutions :</span>
+            Our holistic approach ensures that every aspect of your business is
+            covered, from financial systems to business branding and beyond.
+          </p>
+          <p>
+            <span class="sub-header">Experienced Team :</span> Our consultants
+            are seasoned professionals with deep industry expertise, ensuring
+            that you get solutions that work.
+          </p>
+          <p>
+            <span class="sub-header">Sustainable Growth :</span> We are
+            committed to helping your business not only grow but thrive with
+            sustainable financial and operational systems in place.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer  -->
+    <footer>
+      <div class="footer">
+        <div class="ft-logo">
+          <img src="./images/RC_LOGO__sphral.png" alt="logo" />
+        </div>
+
+        <p>
+          Get in touch with us for personalized, <br />
+          cost-effective solutions designed to meet your <br />
+          unique business challenges
+        </p>
+
+        <div class="contact-info">
+          <i class="fa-solid fa-phone"></i>
+          <p>+234 (0) 814 165 6883. +234 (0) 904 559 6854</p>
+        </div>
+
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+          <a href=""> <i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- extrnal scriptt -->
+    <script src="script.js"></script>
+  </body>
+</html>
