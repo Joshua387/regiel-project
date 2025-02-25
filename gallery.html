@@ -7,6 +7,7 @@
 
     <!-- External styling -->
     <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -47,11 +48,11 @@
     </header>
 
     <main>
-      <section id="gallery">
+      <section id="gallery" data-aos="fade-in">
         <h2>Gallery</h2>
       </section>
 
-      <section class="gall-con">
+      <section class="gall-con" data-aos="fade-up">
         <div class="gal-img">
           <img src="./images/gal-img-1.jfif" alt="" />
         </div>
@@ -122,5 +123,13 @@
 
     <!-- extrnal scriptt -->
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+       duration: 2000,
+        delay: 50,
+        once: true
+      });
+    </script>
   </body>
 </html>

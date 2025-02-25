@@ -47,8 +47,8 @@
   gap: 2.5rem;
 }
 
-#header .active {
-}
+/* #header .active {
+} */
 
 .active {
   padding: 0.625rem 1.25rem;
@@ -73,8 +73,8 @@
   color: #fff !important;
 }
 
-#header button {
-}
+/* #header button {
+} */
 
 .btn {
   color: #fff;
@@ -407,6 +407,22 @@
   margin-bottom: 1.875rem;
 }
 
+/* @keyframes slideInLeft {
+  from {
+ transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.team_img {
+  animation: slideInLeft 1s ease-in ;
+} */
+
+
+
 h2 {
   font-size: 3.125rem;
   text-align: center;
@@ -524,6 +540,10 @@ span {
 }
 
 .services-list {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -665,7 +685,7 @@ span {
   background-size: cover;
   background-blend-mode: darken;
   height: 100%;
-  padding: 1.875rem 3.125rem;
+  padding: 80px 50px;
   display: flex;
   justify-content: space-between;
 }

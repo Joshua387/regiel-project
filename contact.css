@@ -42,8 +42,8 @@
   gap: 40px;
 }
 
-#header .active {
-}
+/* #header .active {
+} */
 
 .active {
   padding: 10px 20px;
@@ -87,6 +87,81 @@
 
 .out {
   display: none;
+}
+
+#contact {
+  padding: 100px 20px 40px;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/contact-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 500px;
+  position: relative;
+  margin: 95px 0 50px;
+}
+
+#contact h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0;
+  background: rgba(0, 0, 0, 0.199);
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.form-container {
+  background: white;
+  padding: 20px 80px 80px;
+  border-radius: 10px;
+
+}
+
+.form-container h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#whatsappForm{
+  padding: 40px 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* .form-info{
+
+} */
+
+label{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+input, textarea {
+  width: 100%;
+  font-size: 20px;
+  padding: 30px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: #ccc;
+}
+
+input::placeholder, textarea{
+  font-size: 18px;
+}
+
+button {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 5px;
 }
 
 .footer {
@@ -220,6 +295,74 @@
     color: rgb(76, 154, 42);
   }
 
+
+  /* -------form ------ */
+  #contact {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  #contact h2 {
+    font-size: 20px;
+    padding: 5px 10px 30px;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  
+  }
+  
+  .form-container h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #whatsappForm{
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+/*   
+  .form-info{
+  
+  }
+   */
+  label{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  input, textarea {
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: #ccc;
+  }
+  
+  input::placeholder, textarea{
+    font-size: 14px;
+  }
+  
+  button {
+    background: #25D366;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
   /* -------------Footer ----- */
 
   .footer {

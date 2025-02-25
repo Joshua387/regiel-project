@@ -7,6 +7,7 @@
 
     <!-- External styling -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,7 +55,7 @@
             <img src="./images/image_1.jpg" alt="" />
           </div> -->
         <div class="home-container">
-          <div class="home-row-1">
+          <div class="home-row-1" data-aos="fade-right">
             <h1>
               We Offer The Best
               <span class="buss"
@@ -66,7 +67,7 @@
           </div>
 
           <!-- Slideshow container -->
-          <div class="fade-slider-container">
+          <div class="fade-slider-container" data-aos="fade-left">
             <h2>Service <span>Industries</span></h2>
 
             <p>Be assured of our services</p>
@@ -166,7 +167,7 @@
       <section id="about">
         <h2>About</h2>
 
-        <div class="about-container">
+        <div class="about-container" data-aos="fade-up">
           <div class="team_img">
             <img src="./images/about_img.jfif" alt="" />
           </div>
@@ -197,7 +198,7 @@
       </section>
 
       <!-- Services container  -->
-      <section id="services">
+      <section id="services" data-aos="fade-up">
         <h2>Our Services</h2>
 
         <div class="services-container">
@@ -211,7 +212,7 @@
             sustainability.
           </p>
 
-          <div class="services-list">
+          <div class="services-list" data-aos="fade-right">
             <div class="services list-1">
               <img src="./images/consultant-img.jpg" />
               <h2 class="remove">
@@ -384,7 +385,7 @@
       </section>
 
       <section class="why-us">
-        <div class="why-us-col-1">
+        <div class="why-us-col-1" data-aos="fade-right">
           <h2>
             WHY <br />
             <span>REGINEL </span> <br />
@@ -392,7 +393,7 @@
           </h2>
         </div>
 
-        <div class="why-us-col-2">
+        <div class="why-us-col-2" data-aos="fade-left">
           <p>
             <span class="sub-header">Proven Success :</span> We have been in
             operation for over a decade, we have supported the establishment of
@@ -449,5 +450,13 @@
 
     <!-- extrnal scriptt -->
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+       duration: 2000,
+        delay: 50,
+      once: true
+      });
+    </script>
   </body>
 </html>

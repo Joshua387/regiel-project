@@ -28,6 +28,7 @@
 
     <!-- External styling -->
     <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -69,7 +70,7 @@
     </header>
     <main>
       <!-- main conents -->
-      <section id="services">
+      <section id="services" data-aos="fade-in">
 
 
         <h2>Our Services</h2>
@@ -79,7 +80,7 @@
 
       <section>
         <div class="services-container">
-          <p class="discription">
+          <p class="discription" data-aos="fade-in">
             At Reginel Consulting Firm, we provide a wide range of comprehensive
             financial consulting and business development services tailored to
             the unique needs of businesses across multiple industries. Our deep
@@ -89,7 +90,7 @@
             sustainability.
           </p>
 
-          <div class="services-list">
+          <div class="services-list" data-aos="fade-right">
             <div class="services list-1">
               <img src="./images/consultant-img.jpg" />
               <h2 class="remove">
@@ -296,5 +297,13 @@
 
     <!-- extrnal scriptt -->
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+       duration: 2000,
+        delay: 50,
+        once: true
+      });
+    </script>
   </body>
 </html>

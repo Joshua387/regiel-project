@@ -41,8 +41,8 @@
   gap: 40px;
 }
 
-#header .active {
-}
+/* #header .active {
+} */
 
 .active {
   padding: 10px 20px;
@@ -302,6 +302,7 @@ span {
     flex-direction: column;
     padding: 20px 16px;
     gap: 30px;
+
   }
 
   .team_img {
@@ -313,6 +314,7 @@ span {
     box-shadow: rgba(8, 8, 8, 0.2) 0px 2px 8px 0px;
     border-radius: 30px;
     padding: 16px;
+    color: #fff;
   }
 
   .about-row h3 {
