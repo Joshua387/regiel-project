@@ -181,12 +181,12 @@
 
 /*------- home-----*/
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/bgs-img.webp);
+  background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.253)),
+    url(./images/home-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  /* height: 100%; */
+
 
   margin-top: 95px;
   /* background: rgb(252, 252, 252); */
@@ -219,7 +219,7 @@
 .home-container .buss {
   position: relative;
   font-size: 80px;
-  color: rgb(70, 180, 75);
+  color: rgb(7, 73, 10);
 }
 
 .buss img {
@@ -335,7 +335,7 @@
   .home-container .buss {
     position: relative;
     font-size: 50px;
-    color: rgb(70, 180, 75);
+    color: rgb(7, 73, 10);
   }
   .buss img {
     position: absolute;
@@ -430,7 +430,7 @@ h2 {
 }
 
 span {
-  color: rgb(48, 117, 25);
+  color: rgb(7, 73, 10);
   -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 
@@ -489,7 +489,7 @@ span {
   }
 
   span {
-    color: rgb(48, 117, 25);
+    color: rgb(7, 73, 10);
   }
 
   .about-container {
