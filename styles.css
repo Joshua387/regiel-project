@@ -182,7 +182,7 @@
 /*------- home-----*/
 #home {
   background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.253)),
-    url(./images/home-bg.jpg);
+    url(./images/home-bg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
