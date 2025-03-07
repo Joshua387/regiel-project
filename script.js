@@ -81,6 +81,13 @@ function sendToWhatsApp() {
   window.open(whatsappURL, "_blank");
 }
 
+// Wait for the page to fully load
+window.addEventListener("load", function() {
+  document.getElementById("preloader").style.display = "none";
+  document.querySelector(".content").style.display = "block";
+});
+
+
 // function sendToWhatsApp() {
 //   let number = "+2348028762186";
 //   let name = document.getElementById("fullName").value;
