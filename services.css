@@ -176,7 +176,7 @@
   padding: 100px 20px 40px;
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/bg-service.webp);
+    url(./images/service-bg-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
@@ -198,13 +198,14 @@
 
 .services-container {
   margin-bottom: 50px;
+  padding: 50px;
 }
 
 .discription {
   font-size: 22px;
   line-height: 30px;
   padding: 50px 80px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   text-align: center;
 }
 
@@ -216,6 +217,7 @@
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
+
   flex-wrap: wrap;
   gap: 25px;
   color: #fff;
@@ -246,7 +248,7 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  width: 500px;
+  width: 400px;
   height: 290px;
 }
 
