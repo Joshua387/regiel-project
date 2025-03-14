@@ -200,12 +200,15 @@ span {
   -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 
+.about{
+  background: rgb(76, 154, 42);
+  padding: 80px 50px;
+}
 .about-container {
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
-  background: rgb(76, 154, 42);
-  padding: 80px 50px;
+ 
 }
 
 .team_img {
