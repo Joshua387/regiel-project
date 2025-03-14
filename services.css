@@ -173,7 +173,7 @@
 }
 
 #services {
-  padding: 100px 20px 40px;
+  padding: 100px 0 40px;
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./images/service-bg-img.jpg);
@@ -182,7 +182,7 @@
   background-blend-mode: darken;
   height: 500px;
   position: relative;
-  margin-top: 95px;
+  /* margin-top: 95px; */
 }
 
 #services h2 {
