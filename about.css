@@ -293,6 +293,11 @@ span {
     margin-top: 30px;
   }
 
+.about{
+  background: rgb(76, 154, 42);
+  padding: 16px;
+}
+
   h2 {
     font-size: 20px;
     padding: 10px;
