@@ -218,7 +218,7 @@
 /*------- home-----*/
 #home {
   background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.253)),
-    url(./images/home-bg-img.jpg);
+  url(./images/home-bg-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
@@ -307,7 +307,7 @@
   transition: opacity 1s ease-in-out;
 }
 
-.fade-slide p{
+.fade-slide p {
   font-size: 14px;
   padding: 8px;
   font-weight: 600;
@@ -359,6 +359,7 @@
 
 @media screen and (max-width: 64rem) {
   .home-container {
+  
     width: 100%;
     margin: 10px 0 1.25rem;
     padding: 0;
@@ -367,6 +368,11 @@
   }
 
   #home {
+      background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.253)),
+      url(./images/home-bg-img\ -mobile.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: darken;
     padding: 16px;
     margin-top: 50px;
   }
