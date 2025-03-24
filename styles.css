@@ -218,7 +218,7 @@
 /*------- home-----*/
 #home {
   background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.253)),
-  url(./images/home-bg-img.jpg);
+    url(./images/home-bg-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
@@ -359,7 +359,6 @@
 
 @media screen and (max-width: 64rem) {
   .home-container {
-  
     width: 100%;
     margin: 10px 0 1.25rem;
     padding: 0;
@@ -368,11 +367,7 @@
   }
 
   #home {
-      background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.253)),
-      url(./images/home-bg-img\ -mobile.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-blend-mode: darken;
+    width: 100%;
     padding: 16px;
     margin-top: 50px;
   }
@@ -492,7 +487,7 @@ span {
 
 .about-container {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
   /* padding: 30px 40px; */
 }
@@ -586,25 +581,27 @@ span {
 /*------ Services ////--- */
 
 #services {
-  padding: 50px 80px;
+  padding: 30px 0.625rem 50px;
 }
 
 .discription {
   font-size: 1.375rem;
   line-height: 1.875rem;
   margin-bottom: 1.875rem;
+  padding: 0 1.25rem;
+  text-align: center;
 }
 
 .services-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 40px;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px; */
   margin-top: 50px;
-  /* display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; */
-  /* gap: 40px; */
+  flex-wrap: wrap;
+  gap: 20px;
   color: #fff;
 }
 
@@ -617,7 +614,8 @@ span {
 }
 
 .remove {
-  font-size: 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 700;
   position: absolute;
   bottom: 0;
   padding: 1.25rem;
@@ -666,7 +664,7 @@ span {
   font-size: 1.25rem;
   font-weight: 500;
   margin-bottom: 0.625rem;
-  color: rgb(13, 37, 3);
+  color: rgb(255, 255, 255);
   -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 
@@ -736,7 +734,7 @@ span {
 
 .why-us {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/bgs-img.webp);
+    url(./images/why-us-bg-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;

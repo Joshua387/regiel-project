@@ -197,14 +197,14 @@
 }
 
 .services-container {
-  margin-bottom: 50px;
-  padding: 50px;
+  /* margin-bottom: 50px; */
+  padding: 30px 0.625rem 50px;
 }
 
 .discription {
   font-size: 22px;
   line-height: 30px;
-  padding: 50px 80px;
+  /* padding: 10px 20px; */
   /* margin-bottom: 30px; */
   text-align: center;
 }
@@ -212,14 +212,14 @@
 .services-list {
   /* display: grid;
    
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    grid-gap: 25px; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  /* grid-gap: 10px; */
+  margin-top: 50px;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
-
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 20px;
   color: #fff;
 }
 
@@ -248,7 +248,7 @@
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  width: 400px;
+  width: 350px;
   height: 290px;
 }
 
@@ -285,7 +285,7 @@
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
-  color: rgb(13, 37, 3);
+  color: rgb(255, 255, 255);
 }
 
 .layer-info-2 ul li {
