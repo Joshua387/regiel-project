@@ -63,7 +63,7 @@ document
   });
 
 function sendToWhatsApp() {
-  let whatsappNumber = "+2348028762186";
+  let whatsappNumber = "+23481416568832348141656883";
   let name = document.getElementById("fullName").value;
   let phone = document.getElementById("phoneNumber").value;
   let email = document.getElementById("email").value;
