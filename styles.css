@@ -454,7 +454,7 @@
 /*-------- about------- */
 
 #about {
-  padding: 50px 80px;
+  padding: 50px;
   background: rgb(76, 154, 42);
   color: #fff;
   margin-bottom: 1.875rem;
@@ -477,7 +477,7 @@
 h2 {
   font-size: 3.125rem;
   text-align: center;
-  margin-bottom: 1.875rem;
+  margin-bottom: 20px;
 }
 
 span {
@@ -493,7 +493,7 @@ span {
 }
 
 .team_img {
-  width: 60%;
+  width: 50%;
 }
 
 .team_img img {
@@ -502,10 +502,10 @@ span {
 }
 
 .about-row {
-  width: 38%;
+  width: 45%;
   box-shadow: rgba(8, 8, 8, 0.2) 0rem 0.125rem 0.5rem 0rem;
   border-radius: 1.875rem;
-  padding: 1.875rem;
+  padding: 20px;
 }
 
 .about-row h3 {
